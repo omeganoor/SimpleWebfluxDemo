@@ -1,4 +1,4 @@
-package com.demo.webflux.service.model;
+package com.demo.webflux.rest.model;
 
 import java.io.Serializable;
 import java.util.Date;

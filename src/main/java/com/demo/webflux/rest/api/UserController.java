@@ -1,20 +1,16 @@
-package com.demo.webflux.service.api;
+package com.demo.webflux.rest.api;
 
 
-import static org.hibernate.id.IdentifierGenerator.ENTITY_NAME;
-
-import com.demo.webflux.service.model.UserRequestParameter;
-import com.demo.webflux.service.model.UserResponseParameter;
+import com.demo.webflux.service.api.UserService;
+import com.demo.webflux.rest.model.UserRequestParameter;
+import com.demo.webflux.rest.model.UserResponseParameter;
 import io.swagger.v3.oas.annotations.Parameter;
-import java.net.URI;
-import java.net.URISyntaxException;
 import javax.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

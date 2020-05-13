@@ -1,8 +1,8 @@
 package com.demo.webflux.service.api;
 
 
-import com.demo.webflux.service.model.UserRequestParameter;
-import com.demo.webflux.service.model.UserResponseParameter;
+import com.demo.webflux.rest.model.UserRequestParameter;
+import com.demo.webflux.rest.model.UserResponseParameter;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
